@@ -1,0 +1,25 @@
+{
+  "images": [
+    {
+      "name": "Login Screen",
+      "url": "login_screen.png"
+    },
+    {
+      "name": "Register Screen",
+      "url": "register_screen.png"
+    },
+    {
+      "name": "Home Screen",
+      "url": "home_screen.png"
+    },
+    {
+      "name": "Favorites Screen",
+      "url": "favorites_screen.png"
+    },
+    {
+      "name": "Home List Products",
+      "url": "home_list_products.png"
+    }
+  ],
+  "videos": []
+}

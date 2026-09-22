@@ -1,0 +1,29 @@
+{
+  "images": [
+    {
+      "name": "Splash Screen",
+      "url": "splash_screen.png"
+    },
+    {
+      "name": "Search Screen",
+      "url": "search_screen.png"
+    },
+    {
+      "name": "Preview Book",
+      "url": "preview_book.png"
+    },
+    {
+      "name": "Opening Screen",
+      "url": "opening_screen.png"
+    },
+    {
+      "name": "Home Screen",
+      "url": "home.png"
+    },
+    {
+      "name": "Book Details",
+      "url": "book_details.png"
+    }
+  ],
+  "videos": []
+}

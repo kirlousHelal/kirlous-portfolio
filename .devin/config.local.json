@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Exec(mkdir cloud)",
+      "Exec(curl)"
+    ]
+  }
+}

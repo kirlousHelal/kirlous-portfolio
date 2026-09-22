@@ -1,0 +1,29 @@
+{
+  "images": [
+    {
+      "name": "Home Screen",
+      "url": "home_screen.png"
+    },
+    {
+      "name": "Home Screen 2",
+      "url": "home_screen_2.png"
+    },
+    {
+      "name": "Edit Profile Screen",
+      "url": "edit_profile_screen.png"
+    },
+    {
+      "name": "Chats Screen",
+      "url": "chats_screen.png"
+    },
+    {
+      "name": "Chat Screen",
+      "url": "chat_screen.png"
+    },
+    {
+      "name": "Create Post Screen",
+      "url": "create_post_screen.png"
+    }
+  ],
+  "videos": []
+}

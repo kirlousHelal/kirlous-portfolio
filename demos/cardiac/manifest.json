@@ -1,0 +1,45 @@
+{
+  "images": [
+    {
+      "name": "Splash Screen",
+      "url": "splash_screen.png"
+    },
+    {
+      "name": "Register Screen",
+      "url": "register_screen.png"
+    },
+    {
+      "name": "Login Screen",
+      "url": "login_screen.png"
+    },
+    {
+      "name": "Upload Video Screen",
+      "url": "upload_video_screen.png"
+    },
+    {
+      "name": "Selected Video",
+      "url": "selected_video.png"
+    },
+    {
+      "name": "Picking a Video",
+      "url": "picking_video.png"
+    },
+    {
+      "name": "Model Processing Screen",
+      "url": "model_processing_screen.png"
+    },
+    {
+      "name": "Results Frames",
+      "url": "results_frames.png"
+    },
+    {
+      "name": "Results Good Values",
+      "url": "results_good_values.png"
+    },
+    {
+      "name": "Results Bad Values",
+      "url": "results_bad_values.png"
+    }
+  ],
+  "videos": []
+}

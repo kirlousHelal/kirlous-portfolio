@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kirlous Helal Zaki — Portfolio</title>
+    <meta
+      name="description"
+      content="Kirlous Helal Zaki — Flutter Developer and .NET Backend Developer based in Cairo."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="cursor" aria-hidden="true"></div>
+
+    <header class="nav">
+      <a class="logo" href="#top">Kirlous Helal</a>
+      <nav>
+        <a href="#work">Work</a>
+        <a href="#flutter">Flutter</a>
+        <a href="#dotnet">.NET</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <p class="eyebrow">Cairo, Egypt · Available for work</p>
+        <h1>
+          Kirlous Helal Zaki<br />
+          <em>two tracks, one craftsman.</em>
+        </h1>
+        <p class="lede">
+          Flutter Developer and .NET Backend Developer. Shared work lives once
+          below; each track lists only what belongs to it.
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="#work">Shared work</a>
+          <a class="btn ghost" href="#flutter">Flutter</a>
+          <a class="btn ghost" href="#dotnet">.NET</a>
+        </div>
+        <ul class="contact-row">
+          <li><a href="mailto:kirlous.helal2@gmail.com">kirlous.helal2@gmail.com</a></li>
+          <li><a href="tel:+201201414304">+20 120 141 4304</a></li>
+          <li>
+            <a href="https://linkedin.com/in/kirlous-helal" target="_blank" rel="noreferrer"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/KirlousHelal" target="_blank" rel="noreferrer"
+              >GitHub</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <section id="work" class="section">
+        <div class="section-head">
+          <p class="eyebrow">Shared across both CVs</p>
+          <h2>Graduation project and common work.</h2>
+        </div>
+
+        <article class="project">
+          <div class="project-meta">
+            <span>GP</span>
+            <span>Graduation project</span>
+          </div>
+          <div class="project-body">
+            <h3>Cardiac Function Assessment</h3>
+            <p>
+              Graduation project on both CVs: Flutter client plus deep learning
+              for echocardiogram analysis. Estimates left-ventricle ejection
+              fraction to flag normal vs abnormal heart function. Achieved
+              91.8% DSC in left-ventricle segmentation and 1.69 MSE. FastAPI
+              serves the model as a REST inference endpoint; the app uploads
+              video over HTTP and returns results. 3rd place at the Benha
+              University Innovations Marathon.
+            </p>
+            <ul class="tags">
+              <li>Flutter</li>
+              <li>Deep Learning</li>
+              <li>FastAPI</li>
+              <li>REST</li>
+              <li>Medical imaging</li>
+            </ul>
+            <a
+              class="project-link"
+              href="https://github.com/kirlousHelal/Cardic-Function-Assement-GP---Flutter-DeepLearning_Computer_Vision-"
+              target="_blank"
+              rel="noreferrer"
+              >GitHub</a
+            >
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-meta">
+            <span>02</span>
+            <span>Systems</span>
+          </div>
+          <div class="project-body">
+            <h3>Cloud Computing — Docker &amp; Kubernetes</h3>
+            <p>
+              Dockerized an e-commerce web app with 5 images, docker-compose,
+              and Kubernetes (5 pods, replica sets, YAML deployments).
+            </p>
+            <ul class="tags">
+              <li>Docker</li>
+              <li>Kubernetes</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-meta">
+            <span>03</span>
+            <span>Competition</span>
+          </div>
+          <div class="project-body">
+            <h3>Hotel Rating Prediction</h3>
+            <p>
+              Machine-learning models for classification, regression, and
+              clustering on real-world hotel data — model development and
+              evaluation. Competition certificate.
+            </p>
+            <ul class="tags">
+              <li>Machine Learning</li>
+              <li>Python</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-meta">
+            <span>04</span>
+            <span>Competition</span>
+          </div>
+          <div class="project-body">
+            <h3>Multi-Cancer Classification</h3>
+            <p>
+              Computer-vision pipeline for multi-type cancer classification
+              from medical images. Evaluated 5 models: 97.7% test accuracy with
+              Gradient Boosting, 96.5% with AdaBoost, and 91.0% with a custom
+              CNN.
+            </p>
+            <ul class="tags">
+              <li>Computer Vision</li>
+              <li>CNN</li>
+              <li>Deep Learning</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-meta">
+            <span>05</span>
+            <span>Security</span>
+          </div>
+          <div class="project-body">
+            <h3>Classical Encryption Package</h3>
+            <p>
+              Substitution ciphers (Caesar, Playfair, Polyalphabetic, Hill,
+              Monoalphabetic) and transposition ciphers (Rail Fence, Columnar).
+            </p>
+            <ul class="tags">
+              <li>Cryptography</li>
+              <li>Algorithms</li>
+            </ul>
+          </div>
+        </article>
+      </section>
+
+      <section id="flutter" class="section track">
+        <div class="track-banner">
+          <p class="eyebrow">Track 01</p>
+          <h2>Flutter Developer</h2>
+          <p class="lede">
+            Cross-platform Android and iOS apps with Flutter, Bloc/Cubit, and
+            clean architecture. Projects here are Flutter-only — the graduation
+            project is in Shared work.
+          </p>
+          <a class="btn ghost" href="Kirlous_Helal_Zaki_Flutter_Developer_Resume.pdf" download
+            >Download Flutter CV</a
+          >
+        </div>
+
+        <h3 class="subhead">Flutter projects</h3>
+
+        <article class="project">
+          <div class="project-meta">
+            <span>01</span>
+            <span>Mobile</span>
+          </div>
+          <div class="project-body">
+            <h3>Social App</h3>
+            <p>
+              Feature-rich social platform with authentication, profile
+              management, post sharing, and real-time interactions. Firebase
+              for auth, Firestore, and cloud storage.
+            </p>
+            <ul class="tags">
+              <li>Flutter</li>
+              <li>Firebase</li>
+              <li>Realtime</li>
+            </ul>
+            <a
+              class="project-link"
+              href="https://github.com/kirlousHelal/social_app_flutter"
+              target="_blank"
+              rel="noreferrer"
+              >GitHub</a
+            >
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-meta">
+            <span>02</span>
+            <span>Mobile</span>
+          </div>
+          <div class="project-body">
+            <h3>Shop App</h3>
+            <p>
+              E-commerce app with 4+ core features: authentication, product
+              browsing, cart, and checkout. RESTful APIs for live product data
+              and responsive updates.
+            </p>
+            <ul class="tags">
+              <li>Flutter</li>
+              <li>REST APIs</li>
+              <li>E-commerce</li>
+            </ul>
+            <a
+              class="project-link"
+              href="https://github.com/kirlousHelal/shop_app_flutter"
+              target="_blank"
+              rel="noreferrer"
+              >GitHub</a
+            >
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-meta">
+            <span>03</span>
+            <span>GitHub</span>
+          </div>
+          <div class="project-body">
+            <h3>Bookly</h3>
+            <p>
+              Book discovery app with search, categorized listings, details,
+              and sample previews. Built with Clean Architecture, Cubit, and
+              Dio against a books API.
+            </p>
+            <ul class="tags">
+              <li>Flutter</li>
+              <li>Cubit</li>
+              <li>Dio</li>
+              <li>Clean Architecture</li>
+            </ul>
+            <a
+              class="project-link"
+              href="https://github.com/kirlousHelal/Bookly_Flutter_App"
+              target="_blank"
+              rel="noreferrer"
+              >GitHub</a
+            >
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-meta">
+            <span>04</span>
+            <span>GitHub</span>
+          </div>
+          <div class="project-body">
+            <h3>News App</h3>
+            <p>
+              News client that fetches articles by topic so users can follow
+              live headlines. Built in Flutter with a clean, responsive layout
+              across devices.
+            </p>
+            <ul class="tags">
+              <li>Flutter</li>
+              <li>API</li>
+              <li>Bloc</li>
+            </ul>
+            <a
+              class="project-link"
+              href="https://github.com/kirlousHelal/news_app_flutter"
+              target="_blank"
+              rel="noreferrer"
+              >GitHub</a
+            >
+          </div>
+        </article>
+
+        <div class="skill-block">
+          <h3 class="subhead">Flutter-specific skills</h3>
+          <ul class="skills">
+            <li>Flutter</li>
+            <li>Dart</li>
+            <li>Bloc / Cubit</li>
+            <li>Firebase (Auth, Firestore, Storage)</li>
+            <li>SQLite</li>
+            <li>Hive</li>
+            <li>flutter_test / mockito / widget testing</li>
+            <li>Android Studio</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="dotnet" class="section track">
+        <div class="track-banner">
+          <p class="eyebrow">Track 02</p>
+          <h2>.NET Backend Developer</h2>
+          <p class="lede">
+            RESTful APIs, SQL Server, and clean architecture (Repository
+            Pattern). Projects here are backend/full-stack only — Docker,
+            competitions, and the GP are in Shared work.
+          </p>
+          <a
+            class="btn ghost"
+            href="Kirlous_Helal_Zaki_.NET_Backedend_Developer_Resume.pdf"
+            download
+            >Download .NET CV</a
+          >
+        </div>
+
+        <h3 class="subhead">.NET Backend projects</h3>
+
+        <article class="project">
+          <div class="project-meta">
+            <span>01</span>
+            <span>Full stack</span>
+          </div>
+          <div class="project-body">
+            <h3>BuyingApp — E-commerce (MEAN)</h3>
+            <p>
+              Team full-stack store with Angular, Node.js/Express, and MongoDB.
+              Four-plus modules: JWT authentication, home, product listing, and
+              order management.
+            </p>
+            <ul class="tags">
+              <li>Angular</li>
+              <li>Node.js</li>
+              <li>MongoDB</li>
+              <li>JWT</li>
+            </ul>
+          </div>
+        </article>
+
+        <div class="skill-block">
+          <h3 class="subhead">.NET-specific skills</h3>
+          <ul class="skills">
+            <li>ASP.NET Core Web API</li>
+            <li>C#</li>
+            <li>.NET Core Backend</li>
+            <li>SQL / SQL Server</li>
+            <li>Rest Assured</li>
+            <li>Visual Studio</li>
+            <li>Angular (frontend)</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="section-head">
+          <p class="eyebrow">Shared background</p>
+          <h2>Education, experience, skills, and certificates.</h2>
+        </div>
+
+        <div class="about-grid">
+          <div>
+            <h3 class="subhead">Education</h3>
+            <p>
+              Bachelor’s in Computer and Information Science, Ain Shams
+              University — Scientific Computing. Cumulative GPA 2.96/4.0 (Very
+              Good). Graduated 2024. Military service: completed.
+            </p>
+          </div>
+          <div>
+            <h3 class="subhead">Languages</h3>
+            <p>Arabic — native. English — professional working proficiency.</p>
+          </div>
+        </div>
+
+        <h3 class="subhead">Shared skills</h3>
+        <ul class="skills">
+          <li>RESTful APIs</li>
+          <li>Clean Architecture</li>
+          <li>Repository Pattern</li>
+          <li>MVVM</li>
+          <li>OOP</li>
+          <li>Data Structures &amp; Algorithms</li>
+          <li>SQL / NoSQL</li>
+          <li>API Design</li>
+          <li>Testing</li>
+          <li>Git &amp; GitHub</li>
+          <li>Docker</li>
+          <li>Linux</li>
+          <li>Postman</li>
+          <li>C++</li>
+          <li>Java</li>
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>HTML / CSS</li>
+          <li>Agile / Scrum</li>
+        </ul>
+
+        <h3 class="subhead">Experience</h3>
+        <ul class="timeline">
+          <li>
+            <span>Jul 2024</span>
+            <p>
+              <strong>AI Image Classification &amp; Enhancement System</strong>
+              — Freelance with a PhD researcher. Trained and integrated CNN/ML
+              models to predict digital-print quality (color type, contrast,
+              resolution). Built a Tkinter GUI (CMYK conversion, contrast, EDSR
+              ×3 upscaling) and packaged a standalone .exe.
+            </p>
+          </li>
+          <li>
+            <span>Jul 2024</span>
+            <p>
+              <strong>Internship: Automation and Manual API Testing</strong>
+              (Certificate) — Manual API validation and automated test scripts
+              for faster defect detection.
+            </p>
+          </li>
+          <li>
+            <span>Aug 2022</span>
+            <p>
+              <strong>MEAN Stack ITI Summer Code Camp</strong> (Certificate) —
+              Front-end and back-end web apps with the MEAN stack, integration
+              and scalable deployment.
+            </p>
+          </li>
+          <li>
+            <span>Sep 2022</span>
+            <p>
+              <strong>Git / GitHub Workshop</strong> — Version control, change
+              tracking, and collaborative development.
+            </p>
+          </li>
+        </ul>
+
+        <h3 class="subhead">Courses</h3>
+        <ul class="timeline">
+          <li>
+            <span>Sep 2026</span>
+            <p>ASP.NET Core Web API</p>
+          </li>
+          <li>
+            <span>Mar 2025</span>
+            <p>Implementing and Developing SQL Server objects</p>
+          </li>
+          <li>
+            <span>Nov 2024</span>
+            <p>Flutter Course — Udemy (Certificate)</p>
+          </li>
+        </ul>
+
+        <h3 class="subhead">Certificates</h3>
+        <ul class="skills">
+          <li>Benha University — Cardiac Function Assessment (3rd place)</li>
+          <li>Computer Vision — Multi-Cancer Classification</li>
+          <li>Machine Learning — Hotel Rating Prediction</li>
+          <li>Flutter Course</li>
+          <li>Internship Testing</li>
+          <li>MEAN Stack (ITI)</li>
+          <li>Ain Shams Computer Science graduation</li>
+          <li>Military Service</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="section contact">
+        <p class="eyebrow">Contact</p>
+        <h2>
+          Open to internships,<br />
+          <em>freelance, and teams.</em>
+        </h2>
+        <p class="lede">
+          Email or phone. Track CVs are on the Flutter and .NET sections.
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="mailto:kirlous.helal2@gmail.com">kirlous.helal2@gmail.com</a>
+          <a class="btn ghost" href="https://github.com/KirlousHelal" target="_blank" rel="noreferrer"
+            >GitHub</a
+          >
+          <a
+            class="btn ghost"
+            href="https://linkedin.com/in/kirlous-helal"
+            target="_blank"
+            rel="noreferrer"
+            >LinkedIn</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Kirlous Helal Zaki</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

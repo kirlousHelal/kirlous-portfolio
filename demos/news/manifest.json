@@ -1,0 +1,25 @@
+{
+  "images": [
+    {
+      "name": "News Screen 1",
+      "url": "screenshot_1.png"
+    },
+    {
+      "name": "News Screen 2",
+      "url": "screenshot_2.png"
+    },
+    {
+      "name": "News Screen 3",
+      "url": "screenshot_3.png"
+    },
+    {
+      "name": "News Screen 4",
+      "url": "screenshot_4.png"
+    },
+    {
+      "name": "News Screen 5",
+      "url": "screenshot_5.png"
+    }
+  ],
+  "videos": []
+}
