@@ -502,7 +502,7 @@ h2 em {
 
 .project {
   display: grid;
-  grid-template-columns: 8rem 1fr;
+  grid-template-columns: 8rem 1fr 200px;
   gap: 1.5rem;
   margin-top: 2.5rem;
   padding: 1.8rem;
@@ -510,6 +510,34 @@ h2 em {
   border-radius: var(--radius);
   background: var(--bg-2);
   transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+@media (max-width: 720px) {
+  .nav nav {
+    gap: 1rem;
+  }
+
+  .project {
+    grid-template-columns: 1fr;
+  }
+
+  .project-preview {
+    height: 150px;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline li {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+
+  .nav nav {
+    gap: 0.85rem;
+    font-size: 0.82rem;
+  }
 }
 
 .project:hover {
@@ -529,6 +557,49 @@ h2 em {
 
 .project-body {
   animation: slideInRight 0.5s ease-out;
+}
+
+.project-thumbnails {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0.5rem;
+  align-self: center;
+  justify-self: center;
+}
+
+.project-thumbnails img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  background: var(--bg-2);
+}
+
+.project-thumbnails .more-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--accent);
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: default;
+}
+
+.project-thumbnails.no-thumbnails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  font-size: 0.8rem;
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0.5rem;
 }
 
 .project.featured {
